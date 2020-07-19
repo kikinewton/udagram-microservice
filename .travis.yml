@@ -17,5 +17,5 @@ before_install:
 
 install:
 
-  - echo 'Hello Newton'
-  #  - docker-compose -f udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel 
+  # - echo 'Hello Newton'
+   - docker-compose -f udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel 
