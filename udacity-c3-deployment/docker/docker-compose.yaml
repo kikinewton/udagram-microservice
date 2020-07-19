@@ -21,7 +21,7 @@ services:
       JWT_SECRET: $JWT_SECRET
       URL: "http://localhost:8100"
   backend-feed:
-    image: scheele/udacity-restapi-feed
+    image: kikinewton/udacity-restapi-feed
     volumes:
       - $HOME/.aws:/root/.aws
     environment:
